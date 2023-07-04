@@ -102,7 +102,11 @@ public class Tree {
 
     @Override
     public String toString() {
-        return this.print(this.root, 0);
+        if (this.root != null) {
+            return this.print(this.root, 0);
+        } else {
+            return "empty";
+        }
     }
 
     public void preOrder() {
