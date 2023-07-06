@@ -75,5 +75,7 @@ public class HashTable {
 
         System.out.println(hashTable);
 
+        System.out.println(hashTable.get(0));
+
     }
 }
